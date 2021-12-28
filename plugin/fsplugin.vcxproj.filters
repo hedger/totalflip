@@ -25,6 +25,12 @@
     <Filter Include="Header Files\messages">
       <UniqueIdentifier>{bbed0f16-e6aa-49d1-995a-1653256cbb44}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\serial">
+      <UniqueIdentifier>{13640135-f378-4213-9d7d-bcc07be48b1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\serial">
+      <UniqueIdentifier>{6dde1c24-cde6-43b3-8541-4489df51fe5b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cunicode.cpp">
@@ -63,6 +69,12 @@
     <ClCompile Include="messages\system.pb.c">
       <Filter>Source Files\messages</Filter>
     </ClCompile>
+    <ClCompile Include="serial\src\Win32.Devices.SerialDevice.cpp">
+      <Filter>Source Files\serial</Filter>
+    </ClCompile>
+    <ClCompile Include="flipperrpc\flipperrpc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cunicode.h">
@@ -100,6 +112,12 @@
     </ClInclude>
     <ClInclude Include="messages\system.pb.h">
       <Filter>Header Files\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="serial\include\Win32.Devices.SerialDevice.hpp">
+      <Filter>Header Files\serial</Filter>
+    </ClInclude>
+    <ClInclude Include="flipperrpc\flipperrpc.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

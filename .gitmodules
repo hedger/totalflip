@@ -1,3 +1,9 @@
 [submodule "plugin/nanopb"]
 	path = plugin/nanopb
 	url = https://github.com/nanopb/nanopb.git
+[submodule "plugin/serial"]
+	path = plugin/serial
+	url = https://github.com/jensen-loouq/Windows-Device-Serial-Cpp.git
+[submodule "plugin/corezero"]
+	path = plugin/corezero
+	url = https://github.com/LooUQ/CoreZero-SDK.git

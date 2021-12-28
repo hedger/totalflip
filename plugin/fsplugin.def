@@ -8,8 +8,8 @@ EXPORTS
 	FsFindClose
 	FsMkDir
 	FsMkDirW
-	FsExecuteFile
-	FsExecuteFileW
+	;FsExecuteFile
+	;FsExecuteFileW
 	FsRenMovFile
 	FsRenMovFileW
 	FsGetFile
@@ -20,26 +20,26 @@ EXPORTS
 	FsDeleteFileW
 	FsRemoveDir
 	FsRemoveDirW
-	FsSetAttr
-	FsSetAttrW
-	FsSetTime
-	FsSetTimeW
+	;FsSetAttr
+	;FsSetAttrW
+	;FsSetTime
+	;FsSetTimeW
 	FsStatusInfo
 	FsGetDefRootName
-	FsExtractCustomIcon
-	FsExtractCustomIconW
+	;FsExtractCustomIcon
+	;FsExtractCustomIconW
 	FsSetDefaultParams
-	FsGetPreviewBitmap
-	FsGetPreviewBitmapW
-	FsLinksToLocalFiles
-	FsGetLocalName
-	FsGetLocalNameW
-	FsContentGetSupportedField
-	FsContentGetValue
-	FsContentGetValueW
-	FsContentGetSupportedFieldFlags
-	FsContentGetDefaultSortOrder
-	FsContentGetDefaultView
-	FsContentSetValue
-	FsContentSetValueW
+	;FsGetPreviewBitmap
+	;FsGetPreviewBitmapW
+	;FsLinksToLocalFiles
+	;FsGetLocalName
+	;FsGetLocalNameW
+	;FsContentGetSupportedField
+	;FsContentGetValue
+	;FsContentGetValueW
+	;FsContentGetSupportedFieldFlags
+	;FsContentGetDefaultSortOrder
+	;FsContentGetDefaultView
+	;FsContentSetValue
+	;FsContentSetValueW
 	FsContentPluginUnloading
