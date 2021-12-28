@@ -13,6 +13,18 @@
       <UniqueIdentifier>{b46d4a07-2a73-4d10-be3f-74d96983fc17}</UniqueIdentifier>
       <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
     </Filter>
+    <Filter Include="Source Files\nanopb">
+      <UniqueIdentifier>{3afdfaee-e414-4e52-a9ca-a625d7bc94f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\nanopb">
+      <UniqueIdentifier>{84cd71a7-009b-4401-a8a4-4d803aaa8e06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\messages">
+      <UniqueIdentifier>{f75af9bb-8b42-488a-83e8-1e754f899c6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\messages">
+      <UniqueIdentifier>{bbed0f16-e6aa-49d1-995a-1653256cbb44}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cunicode.cpp">
@@ -24,6 +36,33 @@
     <ClCompile Include="StdAfx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="nanopb\pb_common.c">
+      <Filter>Source Files\nanopb</Filter>
+    </ClCompile>
+    <ClCompile Include="nanopb\pb_decode.c">
+      <Filter>Source Files\nanopb</Filter>
+    </ClCompile>
+    <ClCompile Include="nanopb\pb_encode.c">
+      <Filter>Source Files\nanopb</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\application.pb.c">
+      <Filter>Source Files\messages</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\flipper.pb.c">
+      <Filter>Source Files\messages</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\gui.pb.c">
+      <Filter>Source Files\messages</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\status.pb.c">
+      <Filter>Source Files\messages</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\storage.pb.c">
+      <Filter>Source Files\messages</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\system.pb.c">
+      <Filter>Source Files\messages</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cunicode.h">
@@ -34,6 +73,33 @@
     </ClInclude>
     <ClInclude Include="StdAfx.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nanopb\pb_common.h">
+      <Filter>Header Files\nanopb</Filter>
+    </ClInclude>
+    <ClInclude Include="nanopb\pb_decode.h">
+      <Filter>Header Files\nanopb</Filter>
+    </ClInclude>
+    <ClInclude Include="nanopb\pb_encode.h">
+      <Filter>Header Files\nanopb</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\application.pb.h">
+      <Filter>Header Files\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\flipper.pb.h">
+      <Filter>Header Files\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\gui.pb.h">
+      <Filter>Header Files\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\status.pb.h">
+      <Filter>Header Files\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\storage.pb.h">
+      <Filter>Header Files\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\system.pb.h">
+      <Filter>Header Files\messages</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

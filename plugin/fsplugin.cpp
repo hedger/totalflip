@@ -878,5 +878,5 @@ void __stdcall FsContentPluginUnloading(void)
 	// If you do something in a background thread, you may
 	// wait in this function until the thread has finished
 	// its work to prevent Total Commander from closing!
-	// MessageBox(0,"fsplugin unloading!","Test",0);
+	MessageBox(0,"fsplugin unloading!","Test",0);
 }
